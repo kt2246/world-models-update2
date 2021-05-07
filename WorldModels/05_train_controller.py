@@ -32,8 +32,8 @@ retrain_mode = True
 dream_mode = 0
 cap_time_mode = True
 
-num_worker = 8
-num_worker_trial = 16
+num_worker = 2
+num_worker_trial = 4
 
 population = num_worker * num_worker_trial
 
@@ -538,4 +538,3 @@ if __name__ == "__main__":
   args = parser.parse_args()
   if "parent" == mpi_fork(args.num_worker+1): os.exit()
   main(args)
-
