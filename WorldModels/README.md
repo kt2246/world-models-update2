@@ -1,4 +1,12 @@
 # WorldModels
+
+Original README below.  Please see submitted report for full rundown of the project and challenges I had with final implementation.
+
+All code runs on python3 command.
+
+
+
+
 An implementation of the ideas from this paper https://arxiv.org/pdf/1803.10122.pdf
 
 Code base adapted from https://github.com/hardmaru/estool
